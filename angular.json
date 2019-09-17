@@ -29,7 +29,7 @@
             ],
             "styles": [
               "src/styles.scss",
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
               "src/assets/js/canvas.js",
@@ -127,8 +127,13 @@
               "devServerTarget": "my-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "my-app"
 }
